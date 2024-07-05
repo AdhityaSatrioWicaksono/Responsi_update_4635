@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color:#8b3898;
+    align-items: center;
+    padding: 10px 10px;
+    position:fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+.nav-section{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+   
+}
+.nav-item{
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.15s;
+}
+.nav-item:hover {
+ 
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-item:active {
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    background-color: #8b3898;
+}
+
+.about h2{
+   text-align: center; 
+   margin-bottom: 3rem;
+   font-size: 2.5rem;
+}
+
+.about .row{
+    display: flex;
+}
+
+.about .row .about-me-img {
+ flex: 1 1 30rem;
+}
+
+
+.about .row .isi-about {
+    flex: 1 1 35rem;
+    
+}
+
+.about .row .isi-about h3{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.about .row .isi-about p{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 380;
+    line-height: 1.5;
+    width: 90%;
+}
+
+
+  .box-contents3{
+    padding: 16px;
+    background: #ffffffb6;
+    border-radius: 15px;
+    transition: all .38s ease;
+    width: 30%;
+    height: 20rem;
+    margin-right: 2.5rem;
+    margin-top: 6rem;
+  }
+
+  .box-contents2{
+    padding: 16px;
+    background: #c32fe4c6;
+    border-radius: 15px;
+    transition: all .38s ease;
+    width: 30%;
+    height: 20rem;
+    margin-right: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  .box-contents1{
+    padding: 16px;
+    background: #ffffffb6;
+    border-radius: 15px;
+    transition: all .38s ease;
+    width: 85%;
+    height: 20rem;
+    margin-left: 2.5rem;
+    margin-top: 6rem;
+  }
+
+
+
+
+
+
